@@ -1,6 +1,6 @@
 Name:		nagios-check_nfs4
 Version:	0.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 Summary:	NFSv4 monitoring for clients and servers
 License:	GPL
 Group:		Networking/Other
@@ -32,7 +32,7 @@ perl -pi -e 's|/usr/local/nagios/libexec|%{_datadir}/nagios|' \
 install -d -m 755 %{buildroot}%{_sysconfdir}/nagios/plugins.d
 cat > %{buildroot}%{_sysconfdir}/nagios/plugins.d/check_nfs4.cfg <<'EOF'
 define command {
-	command_name    check_whitelist
+	command_name    check_nfs4
 	command_line    %{_datadir}/nagios/plugins/check_nfs4.pl
 }
 EOF
