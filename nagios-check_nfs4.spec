@@ -1,8 +1,8 @@
 Name:		nagios-check_nfs4
 Version:	0.2
 Release:	%mkrel 1
-Summary:	NFSv4 monitoring for clients and servers.
-License:	Apache License
+Summary:	NFSv4 monitoring for clients and servers
+License:	GPL
 Group:		Networking/Other
 URL:		http://www.nagiosexchange.org/cgi-bin/page.cgi?g=2070.html;d=1
 Source:     check_nfs4.%{version}.pl
