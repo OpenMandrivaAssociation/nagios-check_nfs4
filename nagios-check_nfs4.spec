@@ -44,3 +44,20 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_nfs4.cfg
 %{_datadir}/nagios/plugins/check_nfs4.pl
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 0.2-4mdv2011.0
++ Revision: 620462
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0.2-3mdv2010.0
++ Revision: 440225
+- rebuild
+
+* Sun Dec 21 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0.2-2mdv2009.1
++ Revision: 317111
+- fix configuration
+- import nagios-check_nfs4
+
+
