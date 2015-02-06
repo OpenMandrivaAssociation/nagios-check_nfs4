@@ -1,6 +1,6 @@
 Name:		nagios-check_nfs4
 Version:	0.2
-Release:	%mkrel 4
+Release:	5
 Summary:	NFSv4 monitoring for clients and servers
 License:	GPL
 Group:		Networking/Other
