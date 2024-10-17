@@ -4,7 +4,7 @@ Release:	5
 Summary:	NFSv4 monitoring for clients and servers
 License:	GPL
 Group:		Networking/Other
-URL:		http://www.nagiosexchange.org/cgi-bin/page.cgi?g=2070.html;d=1
+URL:		https://www.nagiosexchange.org/cgi-bin/page.cgi?g=2070.html;d=1
 Source:     check_nfs4.%{version}.pl
 Requires:	nagios-plugins
 BuildArch:  noarch
